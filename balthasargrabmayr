@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Balthasar Grabmayr</title>
+    <style>
+        body {
+            font-family: 'Helvetica Neue', Arial, sans-serif;
+            background-color: #f8f8f8;
+            color: #333;
+            margin: 0;
+            padding: 0;
+            line-height: 1.6;
+        }
+        .container {
+            max-width: 960px;
+            margin: 0 auto;
+            padding: 30px 20px;
+        }
+        header {
+            text-align: center;
+            margin-bottom: 40px;
+        }
+        header h1 {
+            font-size: 3rem;
+            margin-bottom: 10px;
+            color: #2c3e50;
+        }
+        .intro {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 30px;
+            flex-wrap: wrap;
+            margin-bottom: 40px;
+        }
+        .profile-photo {
+            width: 200px;
+            height: 200px;
+            border-radius: 50%;
+            border: 4px solid #2c3e50;
+            object-fit: cover;
+        }
+        .bio {
+            max-width: 500px;
+            text-align: left;
+        }
+        .bio p {
+            font-size: 1.1rem;
+            margin-bottom: 20px;
+        }
+        .bio a {
+            color: #2c3e50;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        .bio a:hover {
+            text-decoration: underline;
+        }
+        .publications h2 {
+            font-size: 1.8rem;
+            color: #2c3e50;
+            margin-bottom: 20px;
+        }
+        .publications ul {
+            list-style-type: none;
+            padding: 0;
+        }
+        .publications li {
+            margin-bottom: 15px;
+            font-size: 1.1rem;
+        }
+        .publications a {
+            color: #2980b9;
+            text-decoration: none;
+        }
+        .publications a:hover {
+            text-decoration: underline;
+        }
+        nav {
+            margin-top: 40px;
+            text-align: center;
+        }
+        nav a {
+            color: #2980b9;
+            text-decoration: none;
+            margin: 0 15px;
+            font-size: 1.1rem;
+        }
+        nav a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Balthasar Grabmayr</h1>
+        </header>
+        <main>
+            <div class="intro">
+                <img src="assets/profile.jpg" alt="Profile Photo" class="profile-photo">
+                <div class="bio">
+                    <p>I am a Junior Professor of Philosophy at Tübingen University. Before that, I was an Azrieli International Postdoctoral Fellow in the Department of Philosophy at the University of Haifa and concurrently held a postdoctoral position at the Blavatnik School of Computer Science at Tel Aviv University. I received my PhD in Philosophy from Humboldt University of Berlin. My research mostly focuses on logic and the philosophies of logic, mathematics, and computation.</p>
+                    <p>📄 <a href="files/CV-Balthasar-Grabmayr.pdf" target="_blank">Download CV (PDF)</a> (CV to be uploaded)</p>
+                </div>
+            </div>
+            <section class="publications">
+                <h2>Selected Publications</h2>
+                <ul>
+                    <li>Grabmayr, B., Halbach, V., & Ye, L. (2022). "Varieties of Self-Reference in Metamathematics." *Journal of Philosophical Logic*, Online First. <a href="https://link.springer.com/article/10.1007/s10992-022-09696-y" target="_blank">Link</a></li>
+                    <li>Grabmayr, B., & Visser, A. (2021). "Self-Reference Upfront: A Study of Self-Referential Gödel Numberings." *Review of Symbolic Logic*, Online First. <a href="https://doi.org/10.1017/S1755020321000393" target="_blank">Link</a></li>
+                    <li>Grabmayr, B., & Avron, A. (2023). "Breaking the Tie: Benacerraf's Identification Problem Revisited." *Philosophia Mathematica*, 31(1), 81-103. <a href="https://doi.org/10.1093/philmat/nkac022" target="_blank">Link</a></li>
+                    <li>Grabmayr, B. (2021). "On the Invariance of Gödel’s Second Theorem with regard to Numberings." *Review of Symbolic Logic*, 14(1), 51-84. <a href="https://doi.org/10.1017/S1755020320000192" target="_blank">Link</a></li>
+                    <li>Grabmayr, B. (2024). "A Step Towards Absolute Versions of Metamathematical Results." *Journal of Philosophical Logic*, 53, 247–291. <a href="https://link.springer.com/article/10.1007/s10992-023-09731-6" target="_blank">Link</a></li>
+                </ul>
+            </section>
+            <nav>
+                <a href="index.html">Home</a> |
+                <a href="publications.html">Publications</a>
+            </nav>
+        </main>
+    </div>
+</body>
+</html>
