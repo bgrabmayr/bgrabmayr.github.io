@@ -82,6 +82,15 @@
         .publications a:hover {
             text-decoration: underline;
         }
+	    .publications-wrapper {
+        margin-left: 330px; /* 300px photo + 30px gap */
+    }
+
+    @media (max-width: 768px) {
+        .publications-wrapper {
+            margin-left: 0;
+        }
+    }
         nav {
             margin-top: 40px;
             text-align: center;
@@ -110,6 +119,7 @@
                     <p> <a href="files/CV.pdf" target="_blank">Here is my CV</a></p>
                 </div>
             </div>
+	<div class="publications-wrapper">
             <section class="publications">
                 <h2>Publications</h2>
                 <ul>
@@ -121,6 +131,7 @@
                     
                 </ul>
             </section>
+	</div>
         </main>
     </div>
 </body>
