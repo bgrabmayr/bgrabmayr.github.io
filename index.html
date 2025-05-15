@@ -23,31 +23,35 @@
             margin-bottom: 40px;
         }
         header h1 {
-            font-size: 3rem;
+            font-size: 2.2rem;
             margin-bottom: 10px;
             color: #2c3e50;
         }
         .intro {
             display: flex;
             justify-content: center;
-            align-items: center;
+            align-items: flex-start; 
             gap: 30px;
             flex-wrap: wrap;
             margin-bottom: 40px;
         }
         .profile-photo {
-            width: 200px;
-            height: 200px;
-            border-radius: 50%;
-            border: 4px solid #2c3e50;
-            object-fit: cover;
+	width: 300px;            /* Set a fixed width */
+    height: auto;            /* Let height adjust proportionally */
+    border-radius: 0;        /* No circle */
+    object-fit: contain;     /* Preserves aspect ratio */
+    display: block;
         }
         .bio {
             max-width: 500px;
-            text-align: left;
+            text-align: justify;
+		display: flex;
+    flex-direction: column;
+    justify-content: flex-start; /* Align bio content to top */
         }
         .bio p {
             font-size: 1.1rem;
+		margin-top: 0;
             margin-bottom: 20px;
         }
         .bio a {
@@ -100,20 +104,21 @@
         </header>
         <main>
             <div class="intro">
-                <img src="assets/profile.jpg" alt="Profile Photo" class="profile-photo">
+                <img src="images/bphoto.jpeg" alt="Profile Photo" class="profile-photo">
                 <div class="bio">
                     <p>I am a Junior Professor of Philosophy at Tübingen University. Before that, I was an Azrieli International Postdoctoral Fellow in the Department of Philosophy at the University of Haifa and concurrently held a postdoctoral position at the Blavatnik School of Computer Science at Tel Aviv University. I received my PhD in Philosophy from Humboldt University of Berlin. My research mostly focuses on logic and the philosophies of logic, mathematics, and computation.</p>
-                    <p>📄 <a href="files/CV-Balthasar-Grabmayr.pdf" target="_blank">Download CV (PDF)</a> (CV to be uploaded)</p>
+                    <p> <a href="files/CV-Balthasar-Grabmayr.pdf" target="_blank">Here is my CV</a></p>
                 </div>
             </div>
             <section class="publications">
-                <h2>Selected Publications</h2>
+                <h2>Publications</h2>
                 <ul>
-                    <li>Grabmayr, B., Halbach, V., & Ye, L. (2022). "Varieties of Self-Reference in Metamathematics." *Journal of Philosophical Logic*, Online First. <a href="https://link.springer.com/article/10.1007/s10992-022-09696-y" target="_blank">Link</a></li>
-                    <li>Grabmayr, B., & Visser, A. (2021). "Self-Reference Upfront: A Study of Self-Referential Gödel Numberings." *Review of Symbolic Logic*, Online First. <a href="https://doi.org/10.1017/S1755020321000393" target="_blank">Link</a></li>
-                    <li>Grabmayr, B., & Avron, A. (2023). "Breaking the Tie: Benacerraf's Identification Problem Revisited." *Philosophia Mathematica*, 31(1), 81-103. <a href="https://doi.org/10.1093/philmat/nkac022" target="_blank">Link</a></li>
-                    <li>Grabmayr, B. (2021). "On the Invariance of Gödel’s Second Theorem with regard to Numberings." *Review of Symbolic Logic*, 14(1), 51-84. <a href="https://doi.org/10.1017/S1755020320000192" target="_blank">Link</a></li>
-                    <li>Grabmayr, B. (2024). "A Step Towards Absolute Versions of Metamathematical Results." *Journal of Philosophical Logic*, 53, 247–291. <a href="https://link.springer.com/article/10.1007/s10992-023-09731-6" target="_blank">Link</a></li>
+<li>Grabmayr, B. (2024). "A Step Towards Absolute Versions of Metamathematical Results." <i>Journal of Philosophical Logic</i>, 53, 247–291. <a href="https://link.springer.com/article/10.1007/s10992-023-09731-6" target="_blank">Link</a></li>
+                    <li>Grabmayr, B., Halbach, V., & Ye, L. (2023). "Varieties of Self-Reference in Metamathematics." <i>Journal of Philosophical Logic</i>, 52, 1005–1052. <a href="https://link.springer.com/article/10.1007/s10992-022-09696-y" target="_blank">Link</a></li>
+                    <li>Grabmayr, B., & Visser, A. (2023). "Self-Reference Upfront: A Study of Self-Referential Gödel Numberings." <i>Review of Symbolic Logic</i>, 16(2), 385-424. <a href="https://doi.org/10.1017/S1755020321000393" target="_blank">Link</a></li>
+                    <li>Grabmayr, B., & Avron, A. (2023). "Breaking the Tie: Benacerraf's Identification Problem Revisited." <i>Philosophia Mathematica</i>, 31(1), 81-103. <a href="https://doi.org/10.1093/philmat/nkac022" target="_blank">Link</a></li>
+                    <li>Grabmayr, B. (2021). "On the Invariance of Gödel’s Second Theorem with regard to Numberings." <i>Review of Symbolic Logic</i>, 14(1), 51-84. <a href="https://doi.org/10.1017/S1755020320000192" target="_blank">Link</a></li>
+                    
                 </ul>
             </section>
             <nav>
